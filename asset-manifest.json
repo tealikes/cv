@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.a35c1c60.chunk.css",
+    "main.js": "/cv/static/js/main.c21305e1.chunk.js",
+    "main.js.map": "/cv/static/js/main.c21305e1.chunk.js.map",
+    "runtime-main.js": "/cv/static/js/runtime-main.e4fe9350.js",
+    "runtime-main.js.map": "/cv/static/js/runtime-main.e4fe9350.js.map",
+    "static/js/2.eaf0e224.chunk.js": "/cv/static/js/2.eaf0e224.chunk.js",
+    "static/js/2.eaf0e224.chunk.js.map": "/cv/static/js/2.eaf0e224.chunk.js.map",
+    "index.html": "/cv/index.html",
+    "precache-manifest.574c2e4921f8b6e355795641232076b1.js": "/cv/precache-manifest.574c2e4921f8b6e355795641232076b1.js",
+    "service-worker.js": "/cv/service-worker.js",
+    "static/css/main.a35c1c60.chunk.css.map": "/cv/static/css/main.a35c1c60.chunk.css.map",
+    "static/js/2.eaf0e224.chunk.js.LICENSE.txt": "/cv/static/js/2.eaf0e224.chunk.js.LICENSE.txt",
+    "static/media/app.module.scss": "/cv/static/media/buk-min.c545cf0c.jpg",
+    "static/media/list.module.scss": "/cv/static/media/whatsApp.2de58094.svg",
+    "static/media/github-logo.svg": "/cv/static/media/github-logo.76d344f0.svg",
+    "static/media/html5-min.jpg": "/cv/static/media/html5-min.8612839a.jpg",
+    "static/media/i-min.jpg": "/cv/static/media/i-min.742676e4.jpg",
+    "static/media/js-min.jpg": "/cv/static/media/js-min.b67f8803.jpg",
+    "static/media/mongodb-min.jpg": "/cv/static/media/mongodb-min.ae2860ec.jpg",
+    "static/media/nodejs-min.jpg": "/cv/static/media/nodejs-min.aa6141ae.jpg",
+    "static/media/reactjs-min.jpg": "/cv/static/media/reactjs-min.9263256c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e4fe9350.js",
+    "static/js/2.eaf0e224.chunk.js",
+    "static/css/main.a35c1c60.chunk.css",
+    "static/js/main.c21305e1.chunk.js"
+  ]
+}
