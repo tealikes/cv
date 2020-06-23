@@ -1,31 +1,33 @@
 {
   "files": {
     "main.css": "/cv/static/css/main.a35c1c60.chunk.css",
-    "main.js": "/cv/static/js/main.3a3e0291.chunk.js",
-    "main.js.map": "/cv/static/js/main.3a3e0291.chunk.js.map",
+    "main.js": "/cv/static/js/main.e9abea5e.chunk.js",
+    "main.js.map": "/cv/static/js/main.e9abea5e.chunk.js.map",
     "runtime-main.js": "/cv/static/js/runtime-main.e4fe9350.js",
     "runtime-main.js.map": "/cv/static/js/runtime-main.e4fe9350.js.map",
-    "static/js/2.5df2b469.chunk.js": "/cv/static/js/2.5df2b469.chunk.js",
-    "static/js/2.5df2b469.chunk.js.map": "/cv/static/js/2.5df2b469.chunk.js.map",
+    "static/js/2.e34cc2c8.chunk.js": "/cv/static/js/2.e34cc2c8.chunk.js",
+    "static/js/2.e34cc2c8.chunk.js.map": "/cv/static/js/2.e34cc2c8.chunk.js.map",
     "index.html": "/cv/index.html",
-    "precache-manifest.ca7d23f48c8862dec214397e8aad4700.js": "/cv/precache-manifest.ca7d23f48c8862dec214397e8aad4700.js",
+    "precache-manifest.1109899f3482a2cd401c30058f55ae6c.js": "/cv/precache-manifest.1109899f3482a2cd401c30058f55ae6c.js",
     "service-worker.js": "/cv/service-worker.js",
     "static/css/main.a35c1c60.chunk.css.map": "/cv/static/css/main.a35c1c60.chunk.css.map",
-    "static/js/2.5df2b469.chunk.js.LICENSE.txt": "/cv/static/js/2.5df2b469.chunk.js.LICENSE.txt",
+    "static/js/2.e34cc2c8.chunk.js.LICENSE.txt": "/cv/static/js/2.e34cc2c8.chunk.js.LICENSE.txt",
     "static/media/app.module.scss": "/cv/static/media/buk-min.c545cf0c.jpg",
     "static/media/list.module.scss": "/cv/static/media/whatsApp.2de58094.svg",
     "static/media/github-logo.svg": "/cv/static/media/github-logo.76d344f0.svg",
     "static/media/html5-min.jpg": "/cv/static/media/html5-min.8612839a.jpg",
     "static/media/i-min.jpg": "/cv/static/media/i-min.742676e4.jpg",
     "static/media/js-min.jpg": "/cv/static/media/js-min.b67f8803.jpg",
+    "static/media/left.jpg": "/cv/static/media/left.bb8aa1aa.jpg",
     "static/media/mongodb-min.jpg": "/cv/static/media/mongodb-min.ae2860ec.jpg",
     "static/media/nodejs-min.jpg": "/cv/static/media/nodejs-min.aa6141ae.jpg",
-    "static/media/reactjs-min.jpg": "/cv/static/media/reactjs-min.9263256c.jpg"
+    "static/media/reactjs-min.jpg": "/cv/static/media/reactjs-min.9263256c.jpg",
+    "static/media/right.jpg": "/cv/static/media/right.89df4ff5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e4fe9350.js",
-    "static/js/2.5df2b469.chunk.js",
+    "static/js/2.e34cc2c8.chunk.js",
     "static/css/main.a35c1c60.chunk.css",
-    "static/js/main.3a3e0291.chunk.js"
+    "static/js/main.e9abea5e.chunk.js"
   ]
 }
