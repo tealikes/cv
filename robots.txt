@@ -1,2 +1,3 @@
+Host: https://lexa.website
 User-agent: *
 Disallow: /
