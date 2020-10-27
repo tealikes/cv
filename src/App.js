@@ -1,4 +1,5 @@
 import React from 'react'
+// import Md5 from 'md5'
 import image_1 from './images/1.png'
 import image_2 from './images/2.png'
 import image_3 from './images/3.png'
@@ -13,21 +14,40 @@ import image_11 from './images/11.png'
 import image_12 from './images/12.png'
 
 function App(){
+  const robokassa = React.createRef()
+
   function parallax(e){
-    console.log(1)
     this.querySelectorAll('.layer').forEach(layer => {
       const speed = layer.getAttribute('data-speed')
-
       const x = (window.innerWidth - e.clientX * speed)/100
       const y = (window.innerHeight - e.clientY * speed)/100
-      
       layer.style.transform = `translateX(${x}px) translateX(${y}px)`
     })
   }
 
+  // const MerchantLogin='lexa.website'
+  // const InvoiceID='0'
+  // const Culture='ru'
+  // const Encoding='utf-8'
+  // const md5 = Md5('')
+
   React.useEffect(()=>{
     document.addEventListener('mousemove', parallax)
-  }, [])
+
+    robokassa.current.insertAdjacentHTML('beforeend', `
+      <iframe width="450" height="70" 
+        style="border:0;width:450px;height:70px;overflow:hidden;background-color:transparent;" 
+        allowTransparency="true" 
+        src="https://auth.robokassa.ru/Merchant/PaymentForm/FormFL.if?MerchantLogin=lexa.website&InvoiceID=0&Culture=ru&Encoding=utf-8&SignatureValue=5eae4b6d76a2ceb60fa6b3dd6ef3dc13"></iframe>
+    `)
+
+  }, [robokassa])
+
+// <iframe width="450" height="70"  title="robokassa" 
+//   style={{border:0, width:'450px',height:'70px', overflow:'hidden', backgroundColor:'transparent'}}
+//   allowtransparency="true" 
+//   src={`https://auth.robokassa.ru/Merchant/PaymentForm/FormFL.if?MerchantLogin=lexa.website&InvoiceID=0&Culture=ru&Encoding=utf-8&SignatureValue=5eae4b6d76a2ceb60fa6b3dd6ef3dc13`}>
+// </iframe>
 
   return (
     <section>
@@ -43,7 +63,22 @@ function App(){
       <img src={image_10} alt="" data-speed="-7" className="layer"/>
       <img src={image_11} alt="" data-speed="-5" className="layer"/>
       <img src={image_12} alt="" data-speed="5" className="layer"/>
-      <h2 data-speed="2" className="layer">Lexa website</h2>
+
+      <div className="info">
+        Данная страница предназначена для оплаты работ по Web разработке.
+        К оплате подлежит заранее оговорённая сумма. Если вы решили тайком
+        перевести денежные средства, то такой перевод будет считаться как 
+        доброе дело или пожертвование :)
+      </div>
+
+      <div className="contact">
+        По вопросам пишите:&nbsp;&nbsp;<a href="mailto:lexa.website@yandex.ru">lexa.website@yandex.ru</a>
+      </div>
+
+      <div className="robokassa" ref={robokassa}>
+      </div>
+
+      <h2 data-speed="2" className="layer" translate="no">Lexa website</h2>
     </section>
   )
 }
