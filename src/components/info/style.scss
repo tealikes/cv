@@ -1,0 +1,42 @@
+section .wrap-info{
+  position: absolute;
+  width: 620px;
+  min-height: 420px;
+  background-color: rgba(75, 0, 130, .5);
+  border-radius: 6px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+section .info{
+  text-align: justify;
+  line-height: 2.0rem;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  padding: 25px 35px;
+  color: #fff;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+  text-shadow:
+  0px 0px white,
+  0px 0px yellowgreen;
+
+}
+
+section .contact{
+  padding: 15px;
+  color: #fff;
+}
+
+section .contact a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: greenyellow;
+}
