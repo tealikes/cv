@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const H2 = styled.h2`
     color: #fff;
     font-size: 8rem;
+    font-family: 'Nunito', sans-serif;
   `
 const Title = () => {
   const [count, setCount] = React.useState(true)
@@ -30,8 +31,8 @@ const Title = () => {
     <>
       { 
         count ? 
-        <H2 data-speed="2" className="title">lexa website</H2> : 
-        <H2 data-speed="2" className="title">React JS</H2>
+        <H2 data-speed="2" className="title">api для ReactJS</H2> : 
+        <H2 data-speed="2" className="title">за 1000 руб.</H2>
        }
     </>
   )

@@ -3,20 +3,30 @@ import styled from 'styled-components'
 
 export const Button =()=> {
 
-  const Btn = styled.a`
+  const Btn = styled.button`
+    position: absolute;
+    top: 230px;
+    left:50%;
+    margin-left: -150px;
+    width: 300px;
+    border: none;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 3px;
+    text-transform: uppercase;
     border-radius: 6px;
-    padding: 8px 12px;
+    padding: 0.75rem 0;
     background: #fff;
     color: #000;
-    position: absolute;
-    top:0;
-    left:500px;
+   
+    z-index:10;
     :hover {
-      color: red;
-      opacity: 0.5;
+      color: #1E90FF;
+      opacity: 0.9;
     }
   `
   return (
-    <Btn>купить</Btn>
+    <Btn>Купить</Btn>
   )
 }

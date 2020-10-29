@@ -1,7 +1,4 @@
 import React from 'react'
-import Images from '../../components/Images'
-import Title from '../../components/Title'
-import {Button} from './components/Button'
 import styled from 'styled-components'
 
 const Section = styled.section`
@@ -13,14 +10,12 @@ const Section = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Nunito', sans-serif;
   `
-export const Home = () => {
+
+export const About = () => {
   return (
     <Section>
-      <Images />
-      <Button />
-      <Title />
+     About
     </Section>
   )
 }
