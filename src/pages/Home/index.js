@@ -1,6 +1,6 @@
 import React from 'react'
 import Images from '../../components/Images'
-import Title from '../../components/Title'
+import Title from './components/Title'
 import {Button} from './components/Button'
 import styled from 'styled-components'
 
@@ -18,8 +18,8 @@ const Section = styled.section`
 export const Home = () => {
   return (
     <Section>
-      <Images />
-      <Button />
+      <Images isAnimation={true}/>
+      <Button url="products"/>
       <Title />
     </Section>
   )

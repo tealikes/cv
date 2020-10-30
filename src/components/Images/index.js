@@ -25,9 +25,10 @@ const Img = styled.img`
   -moz-user-select: none;
   -khtml-user-select: none;
   -webkit-user-select: none;
+  z-index:-1;
 `
 
-const Images = () =>{
+const Images = ({isAnimation}) =>{
   const alt ="lexa.website"
   const [count, setCount] = React.useState(true)
 
@@ -36,6 +37,8 @@ const Images = () =>{
   }
 
   React.useEffect(()=>{
+    if(!isAnimation) return
+    
     const timeout = setTimeout(()=>{
       setCount(!count)
       document.querySelectorAll('.layer').forEach(layer => {

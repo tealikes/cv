@@ -1,7 +1,8 @@
 import React from 'react'
 import axios from 'axios'
 
-// examle API: 
+//  EXAMPLE API: 
+//  npm i axios
 //  [{isLoading, response, error}, doFetch] = useFetch('/user/login')
 //  doFetch({method:'POST', data:{}})
 
