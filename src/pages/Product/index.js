@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {useParams, useLocation} from 'react-router-dom'
+import {useParams, useHistory} from 'react-router-dom'
 import Images from '../../components/Images'
 import {productsState} from '../../state'
 import {Robokassa} from './components/Robokassa'
@@ -33,6 +33,10 @@ const Closed = styled.div`
     color:  rgba(75, 0, 130, .9);
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
+    &:hover{
+      opacity: 0.6;
+      cursor: pointer;
+    }
   }
 `
 
@@ -75,25 +79,29 @@ const Footer = styled.div`
     text-decoration: none;
   }
 `
-
 export const Product =()=> {
   const {name} = useParams()
+  const history = useHistory()
+
+  const handleBackClick =()=>{
+    history.goBack()
+  }
 
   return (
     <Section>
       <Images isAnimation={true}/>
       <WrapBlock>
         <Closed>
-          <a href="">Закрыть</a>
+          <a onClick={handleBackClick}>Закрыть</a>
         </Closed>
         <Head>
-         <i>Название товара: </i> {productsState[name-1].name }
-         <p>cтоимость скриптa {productsState[name-1].price } руб.</p>
+         <i>Название товара: </i> {productsState[name-1]?.name }
+         <p>cтоимость скриптa {productsState[name-1]?.price } руб.</p>
         </Head>
        
         <Body> 
           Описание товара:
-          <p>{productsState[name-1].description }</p>
+          <p>{productsState[name-1]?.description }</p>
         </Body>
 
         <Robokassa />

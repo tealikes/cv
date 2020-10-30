@@ -19,7 +19,7 @@ const Routes = () => {
       <Route path="/products" component={Products} exact />
       <Route path="/product/:name" component={Product} exact />
       <Route path="/about" component={About} exact />
-      <Route path="/" component={NoPage} />
+      <Route path="" component={NoPage} />
     </Switch>
   )
 }
