@@ -104,7 +104,7 @@ export const Product =()=> {
           <p>{productsState[name-1]?.description }</p>
         </Body>
 
-        <Robokassa />
+        {productsState[name-1]?.name && <Robokassa />}
 
         <Footer>
           <p>
