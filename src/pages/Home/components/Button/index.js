@@ -9,26 +9,25 @@ export const Button =({url})=> {
     top: 230px;
     left:50%;
     margin-left: -150px;
-    width: 420px;
+    width: 300px;
     border: none;
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 3px;
-    text-transform: uppercase;
     border-radius: 6px;
     padding: 0.75rem 0;
     background: #fff;
-    color: #1E90FF;
+    color: red;
     z-index:10;
     :hover {
-      color: #1E90FF;
+      
       opacity: 0.9;
     }
   `
   return (
     <Link to={url}>
-      <Btn>Купить скрипт</Btn>
+      <Btn>Купить</Btn>
     </Link>
   )
 }

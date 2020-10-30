@@ -103,8 +103,10 @@ export const Success =()=> {
         </Head>
     
         <Body> 
-          <p><a href="/Download_React_Hook_useFetch.js">Посмотреть файл</a></p>
-          <p><a href="/Download_React_Hook_useFetch.js" download>Cкачать файл!</a></p>
+          <p><a href="/Download_React_Hook_useFetch.js" download>Hook useFetch, Cкачать файл!</a></p>
+          <p><a href="/Download_React_Hook_useRouter.js" download>Hook useRouter, Cкачать файл!</a></p>
+          <p><a href="/Download_React_Hook_useReducer.js" download>Hook useReducer, Cкачать файл!</a></p>
+          <p><a href="/Download_React_Hook_useContext.js" download>Hook useContext, Cкачать файл!</a></p>
         </Body>
         <Footer>
           <p>

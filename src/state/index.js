@@ -6,7 +6,7 @@ export const productsState = [
     description:`
       Хук useFetdh работает с помощью библиотеки axios, 
       предназначен для удобного получения данных с сервера.
-      Ответы: isLoading, response, error, Запрос через doFetch(параметры).
+      Доступны свойства и методы: isLoading, response, error, doFetch(params).
     `, 
     price:'1000',
     linkDownload:'Download_React_Hook_useFetch.js',
@@ -14,38 +14,40 @@ export const productsState = [
   },
   {
     id:'2', 
-    name:'Hook useFetch', 
-    text:'Для получения данных с сервера.',
-    description:`Lorem dsfaasdf asjdfklsdafhsad
-       kjsdfjkasdjfksjadkfjsadkfjksadjfk dsffsadfsadfsadfsa
-       hsadkfhash hasdkjfh jsadhfjh sadkjhfkjasdfasdfsadfsadf haskjdfh
-       Lorem dsfaasdf asjdfklsdafhsad
-       kjsdfjkasdjfksjadkfjsadkfjksadjfk dsffsadfsadfsadfsa
-       hsadkfhash hasdkjfh jsadhfjh sadkjhfkjasdfasdfsadfsadf haskjdfh
-       Lorem dsfaasdf asjdfklsdafhsad
-       kjsdfjkasdjfksjadkfjsadkfjksadjfk dsffsadfsadfsadfsa
-       hsadkfhash hasdkjfh jsadhfjh sadkjhfkjasdfasdfsadfsadf haskjdfh
-       
-       `, 
-    price:'1500',
+    name:'Hook useReducer', 
+    text:'Для работы со State',
+    description:`
+      Отвечает за формирование нового state приложения из 
+      исходного и объекта события. Помогает в изменении стейта, 
+      удобно инкапсулировать в одном месте.
+    `, 
+    price:'1000',
     linkDownload:'',
     language: 'JavaScript'
   },
   {
     id:'3', 
-    name:'Hook useFetch', 
-    text:'Для получения данных с сервера.',
-    description:'ещё одно описание', 
-    price:'2000',
+    name:'Hook useRouter', 
+    text:'Для переключения страниц',
+    description: `
+      Cинхронизирует пользовательский интерфейс с URL-адресом.
+      Помогает получить пользовательские данные из запроса. 
+      Удобен в использовании.
+    `, 
+    price:'1000',
     linkDownload:'',
     language: 'JavaScript'
   },
   {
     id:'4', 
-    name:'Hook useFetch', 
-    text:'Для получения данных с сервера.',
-    description:'хахаха', 
-    price:'500',
+    name:'Hook useContext', 
+    text:'Передача данных в компоненты',
+    description:`
+      Контекст предоставляет способ разделять подобные значения между 
+      компонентами без необходимости явно передавать опору через каждый 
+      уровень дерева.
+    `, 
+    price:'1000',
     linkDownload:'',
     language: 'JavaScript'
   }
