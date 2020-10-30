@@ -93,9 +93,10 @@ export const Fail =()=> {
           <a onClick={handleBackClick}>Закрыть</a>
         </Closed>
         <Head>
+          Что то пошло не так, платёж не прошёл.
         </Head>
-    
         <Body> 
+          Ошибка оплаты.
         </Body>
         <Footer>
           <p>

@@ -39,6 +39,7 @@ const Closed = styled.div`
 `
 
 const Head = styled.div`
+  color: green;
   font-size: 1.1rem;
   font-weight: bold;
   line-height:50px;
@@ -52,15 +53,19 @@ const Body = styled.div`
   flex-grow: 1;
   flex-shrink:0;
   font-family: 'Nunito', sans-serif;
-  font-size: 1.0rem;
   p{
     line-height: 2rem;
     background: #111;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     color: #fff;
     margin-top: 0.6rem;
     padding: 1rem;
     border-radius: 8px;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
   }
 `
 const Footer = styled.div`
@@ -93,9 +98,13 @@ export const Success =()=> {
           <a onClick={handleBackClick}>Закрыть</a>
         </Closed>
         <Head>
+          Оплата произведена успешно!
+          <p>Номер заказа: <strong><i>{Date.now()}</i></strong></p>
         </Head>
     
         <Body> 
+          <p><a href="/Download_React_Hook_useFetch.js">Посмотреть файл</a></p>
+          <p><a href="/Download_React_Hook_useFetch.js" download>Cкачать файл!</a></p>
         </Body>
         <Footer>
           <p>
