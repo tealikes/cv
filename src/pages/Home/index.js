@@ -18,8 +18,8 @@ const Section = styled.section`
 export const Home = () => {
   return (
     <Section>
+      <div className="test"></div>
       <Images isAnimation={true}/>
-      <Button url="products"/>
       <Title />
     </Section>
   )
