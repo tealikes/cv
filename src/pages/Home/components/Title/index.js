@@ -31,8 +31,8 @@ const Title = () => {
     <>
       { 
         count ? 
-        <H2 data-speed="2" className="title">React</H2> : 
-        <H2 data-speed="2" className="title">JavaSctipt</H2>
+        <H2 data-speed="2" className="title">React JS</H2> : 
+        <H2 data-speed="2" className="title">SPA</H2>
        }
     </>
   )
